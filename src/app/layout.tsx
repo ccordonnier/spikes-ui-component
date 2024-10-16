@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from 'next/font/google'
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
@@ -23,7 +25,11 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased`}
       >
-        {children}
+        <Navbar/>
+        <div className="flex flex-row h-screen">
+          <Sidebar/>
+          {children}
+        </div>
       </body>
     </html>
   );
