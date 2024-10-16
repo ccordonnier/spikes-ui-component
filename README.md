@@ -1,4 +1,4 @@
-![alt text](https://github.com/ccordonnier/spikes-ui-component/tree/main/public/images/paste_challenge.png)?raw=true "Paste challenge")
+![alt text](https://github.com/ccordonnier/spikes-ui-component/blob/main/public/images/paste_challenge.webp?raw=true "Paste challenge")
 
 # Spikes UI Components
 
