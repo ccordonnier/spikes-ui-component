@@ -1,5 +1,4 @@
 import React from 'react';
-import Badge from './Badge';
 
 const H1 = ({
     children,
@@ -9,7 +8,7 @@ const H1 = ({
   }>) => {
     return (
         <h1 className="text-white text-2xl mb-4">
-            {children}<Badge>Pro</Badge>
+            {children}
         </h1>
     );
 };

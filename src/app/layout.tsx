@@ -20,13 +20,14 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="fr">
       <body
-        className={`${inter.className} antialiased`}
+        className={`${inter.className} antialiased overflow-hidden`}
       >
         <Navbar/>
-        <div className="flex flex-row h-screen">
+        <div className="flex flex-row main">
           <Sidebar/>
           {children}
         </div>

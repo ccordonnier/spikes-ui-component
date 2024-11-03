@@ -7,14 +7,14 @@ import Card from "@/components/card/Card";
 import { ScrollArea } from "@/components/ui/scroll-area"
 
 
-export default function Home() {
+export default function Testimonials() {
   return (
     <ScrollArea className="flex flex-col w-full h-full bg-dark-600">
       <div className="w-full h-[45%] flex flex-row gap-8 p-10">
         <div className="flex flex-col w-1/2 justify-between">
           <div className="flex flex-col">
-            <H1>Hero Section<Badge>Pro</Badge></H1>
-            <p className="text-g text-sm mb-4">Detailed header section with heading and graphic/image centred and feature cards on either side.</p>
+            <H1>Hero Section</H1>
+            <p className="text-g text-sm mb-4">Detailed services section with heading and graphic/image centred and feature cards on either side.</p>
           </div>
           <div className="flex flex-col gap-4">
             <div className="grid grid-cols-2 gap-4">
